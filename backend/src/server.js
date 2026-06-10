@@ -55,6 +55,6 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(config.port, () => {
-  console.log(`TrustLink API running on http://127.0.0.1:${config.port}`);
+server.listen(config.port, "0.0.0.0", () => {
+  console.log(`TrustLink API running on http://0.0.0.0:${config.port}`);
 });
