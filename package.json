@@ -1,0 +1,15 @@
+{
+  "name": "trustlink",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm.cmd --prefix backend run dev",
+    "dev:frontend": "npm.cmd --prefix frontend run dev",
+    "start:backend": "npm.cmd --prefix backend start",
+    "build:frontend": "npm.cmd --prefix frontend run build"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}

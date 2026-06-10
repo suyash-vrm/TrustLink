@@ -1,0 +1,177 @@
+{
+  "businesses": [
+    {
+      "id": "d1",
+      "name": "Sharma FMCG Supply",
+      "role": "Distributor",
+      "city": "Aligarh",
+      "owner": "Ramesh Sharma",
+      "phone": "9876543210",
+      "email": "ramesh@trustlink.demo",
+      "passwordHash": "pbkdf2$120000$4c85dbd083d4af4ce9d614a9c72f5635$4b4f20164f2e00c4976ce35ef26069a94c9069130a880d302158a80ee579f13d",
+      "category": "FMCG",
+      "address": "Marris Road, Aligarh, Uttar Pradesh",
+      "pincode": "202001",
+      "lat": 27.8974,
+      "lng": 78.088,
+      "serviceAreaKm": 28,
+      "verification": "GST verified",
+      "creditLimit": 75000
+    },
+    {
+      "id": "d2",
+      "name": "Aman Wholesale Traders",
+      "role": "Distributor",
+      "city": "Agra",
+      "owner": "Aman Verma",
+      "phone": "9876500013",
+      "email": "aman@trustlink.demo",
+      "passwordHash": "pbkdf2$120000$4c85dbd083d4af4ce9d614a9c72f5635$4b4f20164f2e00c4976ce35ef26069a94c9069130a880d302158a80ee579f13d",
+      "category": "Personal care",
+      "address": "Sanjay Place, Agra, Uttar Pradesh",
+      "pincode": "282002",
+      "lat": 27.2046,
+      "lng": 77.9986,
+      "serviceAreaKm": 35,
+      "verification": "Trade license verified",
+      "creditLimit": 55000
+    },
+    {
+      "id": "d3",
+      "name": "Bharat Cold Chain",
+      "role": "Distributor",
+      "city": "Aligarh",
+      "owner": "Nitin Bansal",
+      "phone": "9876500014",
+      "email": "nitin@trustlink.demo",
+      "passwordHash": "pbkdf2$120000$4c85dbd083d4af4ce9d614a9c72f5635$4b4f20164f2e00c4976ce35ef26069a94c9069130a880d302158a80ee579f13d",
+      "category": "Beverages",
+      "address": "Sasni Gate, Aligarh, Uttar Pradesh",
+      "pincode": "202001",
+      "lat": 27.8756,
+      "lng": 78.0716,
+      "serviceAreaKm": 18,
+      "verification": "Documents pending",
+      "creditLimit": 42000
+    },
+    {
+      "id": "r1",
+      "name": "Gupta Kirana Store",
+      "role": "Retailer",
+      "city": "Aligarh",
+      "owner": "Suresh Gupta",
+      "phone": "9876500011",
+      "email": "suresh@trustlink.demo",
+      "passwordHash": "pbkdf2$120000$4c85dbd083d4af4ce9d614a9c72f5635$4b4f20164f2e00c4976ce35ef26069a94c9069130a880d302158a80ee579f13d",
+      "category": "Kirana",
+      "address": "Ramghat Road, Aligarh, Uttar Pradesh",
+      "pincode": "202001",
+      "lat": 27.9052,
+      "lng": 78.0818,
+      "serviceAreaKm": 4,
+      "verification": "Shop verified",
+      "creditLimit": 45000
+    },
+    {
+      "id": "r2",
+      "name": "Anaya Daily Needs",
+      "role": "Retailer",
+      "city": "Hathras",
+      "owner": "Anaya Jain",
+      "phone": "9876500012",
+      "email": "anaya@trustlink.demo",
+      "passwordHash": "pbkdf2$120000$4c85dbd083d4af4ce9d614a9c72f5635$4b4f20164f2e00c4976ce35ef26069a94c9069130a880d302158a80ee579f13d",
+      "category": "Kirana",
+      "address": "Talab Chauraha, Hathras, Uttar Pradesh",
+      "pincode": "204101",
+      "lat": 27.5981,
+      "lng": 78.0492,
+      "serviceAreaKm": 5,
+      "verification": "Shop verified",
+      "creditLimit": 30000
+    }
+  ],
+  "transactions": [
+    {
+      "id": "t1",
+      "fromId": "d1",
+      "toId": "r1",
+      "product": "Biscuits and namkeen cartons",
+      "amount": 42000,
+      "invoiceDate": "2026-05-06",
+      "dueDate": "2026-05-21",
+      "paidDate": "2026-05-19",
+      "status": "Paid",
+      "confirmedBy": [
+        "d1",
+        "r1"
+      ],
+      "notes": "Regular weekly stock"
+    },
+    {
+      "id": "t2",
+      "fromId": "d1",
+      "toId": "r2",
+      "product": "Soap and detergent stock",
+      "amount": 28000,
+      "invoiceDate": "2026-05-12",
+      "dueDate": "2026-05-27",
+      "paidDate": "2026-06-03",
+      "status": "Paid",
+      "confirmedBy": [
+        "d1",
+        "r2"
+      ],
+      "notes": "Paid after follow-up"
+    },
+    {
+      "id": "t3",
+      "fromId": "d2",
+      "toId": "r1",
+      "product": "Hair oil display packs",
+      "amount": 18500,
+      "invoiceDate": "2026-05-30",
+      "dueDate": "2026-06-14",
+      "paidDate": "",
+      "status": "Unpaid",
+      "confirmedBy": [
+        "d2"
+      ],
+      "notes": "Retailer confirmation pending"
+    },
+    {
+      "id": "t4",
+      "fromId": "d1",
+      "toId": "r1",
+      "product": "Cold drinks crate refill",
+      "amount": 33000,
+      "invoiceDate": "2026-06-02",
+      "dueDate": "2026-06-17",
+      "paidDate": "",
+      "status": "Unpaid",
+      "confirmedBy": [
+        "d1",
+        "r1"
+      ],
+      "notes": "Active credit cycle"
+    }
+  ],
+  "partnerRequests": [
+    {
+      "id": "req1781116886329",
+      "fromId": "d1",
+      "toId": "r1",
+      "status": "Accepted",
+      "message": "Sharma FMCG Supply wants to start verified trade with Gupta Kirana Store.",
+      "createdAt": "2026-06-10"
+    },
+    {
+      "id": "req1",
+      "fromId": "r1",
+      "toId": "d3",
+      "status": "Pending",
+      "message": "Looking for regular beverage supply near Ramghat Road.",
+      "createdAt": "2026-06-07"
+    }
+  ]
+}
