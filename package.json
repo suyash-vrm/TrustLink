@@ -7,9 +7,5 @@
     "dev:frontend": "npm --prefix frontend run dev",
     "start:backend": "npm --prefix backend start",
     "build:frontend": "npm --prefix frontend run build"
-  },
-  "workspaces": [
-    "backend",
-    "frontend"
-  ]
+  }
 }
