@@ -8,7 +8,7 @@ import { confirmTransaction, createTransaction, listTransactions, markPaid } fro
 import { notFound, readJson, sendJson } from "./utils/http.js";
 
 function setCors(res) {
-  res.setHeader("Access-Control-Allow-Origin", config.frontendOrigin);
+  res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PATCH, OPTIONS");
 }
