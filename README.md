@@ -1,8 +1,10 @@
-# TrustLink: B2B Trust Ledger & Credit Scoring Platform(https://trust-link-six.vercel.app/)
+# TrustLink: B2B Trust Ledger & Credit Scoring Platform
 
 ![TrustLink](https://img.shields.io/badge/Status-Active-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue)
 
 TrustLink is a full-stack, role-based platform designed to bridge the gap of trust between Distributors and Retailers in the B2B supply chain. By maintaining a transparent ledger of transactions and automatically calculating a dynamic "Trust Score," TrustLink empowers businesses to make informed, data-driven credit decisions.
+
+Live Demo : https://trust-link-six.vercel.app/
 
 ---
 
