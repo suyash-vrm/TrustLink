@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://trustlink-backend-production.up.railway.app/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 const TOKEN_KEY = "trustlink_token";
 
 export function getToken() {
